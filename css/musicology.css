@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.containar{
+    width: 100%;
+    float: left;
+    margin: 50px;
+    }
+.global-heading{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.pragraph{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header Section  */
+header{
+    background-color: #303030;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+.navigation{
+    width: 100%;
+    float: left;
+}
+.icon-part{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    }
+.icon-part img{
+    width: 80px;
+    }
+.menu-part{
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    }
+.menu-part li{
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+    word-spacing: 5px;
+    }
+.menu-part li a{ 
+    color: #fff;
+    }
+.menu-part li a:hover{
+    color: rgba(241, 62, 62, 0.479);
+    transition: ease-in-out 0.7s;
+    text-shadow: 1px 1px 1px ;
+    }
+.search-part{
+    width: 15%;
+    float: left;
+    margin: 30px auto;
+    text-align: end;
+    padding-right: 70px;
+    font-size: 20px;
+    }
+.fa-solid{
+    color: #fff;
+    }
+.fa-solid:hover{
+    color: rgba(211, 45, 45, 0.616);
+    transition: ease 0.4s;
+    }
+    /* Tittle section  */ 
+#title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(../image/background-image.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+.Tittle-part{
+    width: 100%;
+    float: left;
+    }
+    .writting-part{
+    width: 40%;
+    text-align: start;
+    margin: 230px 60px;
+    color: #fff;
+    }
+    .writting-part h1{
+    font-size: 100px;
+    font-weight: 400;
+    }
+    .writting-part p{
+    font-size: 20px;
+    width: 80%;
+    
+    }
+    .writting-part a button{
+    background-color: #e8631c;
+    width: 40%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: 'Oswald', sans-serif;
+    }
+    .writting-part a button:hover{
+    background-color: #d37340b6;
+    color: #e81c1cb2;
+    transition: ease-in-out 0.6s;
+    text-shadow: 2px 2px 2px #e81c1cb2;
+    }
+    /* TOUR SECTION  */
+    #tour{
+    width: 100%;
+    float: left;
+    background: url(../image/background-2.png) no-repeat center fixed;
+    background-size:cover;
+    }
+    
+    .tour-writting-part{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    }
+    .tour-writting-part >.pragraph{
+    margin-top: 40px;
+    }
+    .tour-box-part{
+    width:100%;
+    margin: auto;
+    }
+    .box-part{
+    width: 25%;
+    float: left;
+    margin: 0px 40px;
+    margin-top: 50px;
+    background-color: #303030;
+    text-align: center;
+    color: #fff;
+    }
+    .box-part img{
+    width: 100%;
+    }
+    .box-part >.global-heading{
+    margin-top: 30px;
+    font-weight: 400;
+    }
+    .box-part >.pragraph{
+    margin-top: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    }
+    /* price part  */
+    #price{
+    width: 100%;
+    float: left;
+    background: url(../image/background-image3.png) no-repeat center fixed;
+    background-size: cover;
+    color: #fff;
+    }
+    .price-writting-part{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    }
+    .price-writting-part>.pragraph{
+    margin-top: 30px;
+    }
+    .price-part{
+    width: 100%;
+    float: left;
+    }
+    .price-box{
+    width: 20%;
+    float: left;
+    margin: 0px 70px ;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #e8631c;
+    padding: 40px 0px;
+    box-shadow: 0px 0px 0px 3px #e8631c;
+    border-radius: 3px;
+    }
+    .price-box img{
+    width: 100px;
+    }
+    .price-box >.global-heading{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    }
+    .price-box >.pragraph{
+    width:100%;
+    padding-top: 15px;
+    }
+    .price-box span{
+    padding:0px 5px;
+    }
+    .price-box a button{
+    width: 80%;
+    padding: 8PX;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #303030;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    }
+    .price-box a button:hover{
+    background-color: #303030d2;
+    transition: ease-in-out 0.6s;
+    color: rgba(255, 255, 255, 0.664);
+    }
+    /* revieew section  */
+    #review{
+    width: 100%;
+    float: left;
+    background-color: #e8631c;
+    }
+    .review-part{
+    width: 100%;
+    float: left;
+    }
+    .image{
+    width: 50%;
+    float: left;
+    }
+    .image img{
+    width: 100%;
+    float: left;
+    }
+    .Review-writting-part{
+    width: 50%;
+    float: left;
+    padding: 199.5px 100px;
+    background: url(../image/background4.png)no-repeat center fixed ;
+    background-size: cover;
+    color: #fff;
+    background-color: #e8631c;
+    }
+    .amazing-writting{
+    margin: 172PX 0PX;
+    }
+    .amazing-writting>.pragraph{
+        width: 65%;
+    }
+    .Review-writting-part>.global-heading{
+    padding-bottom: 20px;
+    font-weight: 700;
+    }
+    .Review-writting-part a button{
+        width: 60%;
+        padding: 10PX;
+        border: none;
+        margin-top: 50px;
+        border-radius: 5px;
+        background-color: #303030;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .Review-writting-part a button:hover{
+        background-color: #303030d2;
+        transition: ease-in-out 0.6s;
+        color: rgba(255, 255, 255, 0.664);
+        }
+    .Review-writting-part2{
+        width: 50%;
+        float: left;
+        padding: 199.5px 100px;
+        background: url(../image/digne2.png)no-repeat center fixed ;
+        background-size: cover;
+        color: #fff;
+        background-color: #e8631c;
+    }
+    .best-writting{
+    margin: 172PX 0PX;
+    }
+    .best-writting>.pragraph{
+        width: 65%;
+    }
+    .best-image{
+    width: 50%;
+    height: auto;
+    float: left;
+    }
+    .best-image img{
+    width: 100%;
+    float: left;
+    height: auto;
+    }
+    .Review-writting-part2>.global-heading{
+    padding-bottom: 20px;
+    font-weight: 700;
+    }
+    .Review-writting-part2 a button{
+    width: 60%;
+    padding: 10PX;
+    border: none;
+     margin-top: 50px;
+    border-radius: 5px;
+    background-color: #303030;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    }
+    .Review-writting-part2 a button:hover{
+    background-color: #303030d2;
+    transition: ease-in-out 0.6s;
+    color: rgba(255, 255, 255, 0.664);
+    }
+    /* statistic section  */
+    #statistic{
+        width: 100%;
+        float: left;
+        background-color: #303030;
+        color: #fff;
+        text-align: center;
+    }
+    .statistic-writting-part{
+    width: 35%;
+    margin: auto;
+    margin-top: 60px;
+    }
+    .statistic-writting-part>.global-heading{
+    margin-bottom: 30px;
+    }
+    .statistic-box-part{
+    width: 100%;
+    float: left;
+    margin:130px;
+    text-align: center;
+    font-size: 30px;
+    }
+    .club{
+    width: 25%;
+    float: left;
+    }
+    .active{
+    width: 25%;
+    float: left;
+    }
+    .comunity{
+    width: 25%;
+    float: left;
+    }
+    /* about part  */
+    #about{
+    width: 100%;
+    float: left;
+    position: relative;
+    }
+     .about-image{ 
+        width: 100%;
+        float: left;
+        position: relative;
+    } 
+    .about-part{
+    width: 50%;
+    position: absolute;
+    color: #fff;
+    left: 25%;
+    top: 36%;
+    text-align: center;
+    }
+    .about-part>.pragraph{
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    /* subscribe part  */
+    #subscribe{ 
+    width: 100%;
+    float: left;
+    background: url(../image/bacgroun-6.png) no-repeat center ;
+    background-size: cover;
+    text-align: center;
+    }
+    .subscrib-part{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px ; 
+    color: #fff;
+    }
+    .subscrib-part{
+    font-size: 20px;
+    margin: 30px auto;
+    }
+    #email{
+    width: 67%;
+    font-size: 20px;
+    padding: 10px;
+    }
+    .input{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+    }
+    button{
+    width: 25%;
+    font-size: 25px;
+    padding: 7px;
+    display: inline-block;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    padding-bottom: 10px;
+    }
+    button:hover{
+    background-color: #303030d2;
+    transition: ease-in-out 0.6s;
+    color: rgba(255, 255, 255, 0.664);
+    } 
+    /* footer section  */
+    #footer{
+        width: 100%;
+        float: left;
+        background-color: #303030;
+        color: #FFF;
+    }
+    .musicology-ditails{
+        width: 40%;
+        float: left;
+        padding: 0px 70px;
+    }
+    .musicology-ditails>.global-heading{
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .musicology-ditails>.pragraph{
+        font-size: 15px;
+    }
+    .fa-brands{
+        background-color: #fff;
+        color: #303030;
+        width: 25px;
+        text-align: center;
+        padding:4px 5px;
+        border-radius:50%;
+        margin-top: 20px;
+    }
+    .fa-brands:hover{
+        opacity: 0.5;
+        transition: ease-in-out 0.7s;
+    }
+    .musicology-about{
+        width: 20%;
+        float: left;
+    }
+    .musicology-about>.global-heading{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .musicology-survice{
+        width: 20%;
+        float: left;
+    }
+    .musicology-survice>.global-heading{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .musicology-other{
+        width: 20%;
+        float: left;
+    }
+    .musicology-other>.global-heading{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    #footer a{
+        color: #fff;
+    }
+    #footer a:hover{
+        color: rgba(255, 255, 255, 0.623);
+        transition:ease-in-out 0.7s;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.548);
+    }
